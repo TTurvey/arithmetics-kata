@@ -1,10 +1,13 @@
 
 import org.junit.jupiter.api.Test;
 
-public class ArithmeticsTest {
+import static org.junit.jupiter.api.Assertions.*;
+
+class ArithmeticsTest {
 
     @Test
-    void convertsOne() {assertEquals("1", Arithmetics.convert(1));
+    void convertsOne() {
+        assertEquals(1, new Arithmetics().solve(1));
     }
 
 }
