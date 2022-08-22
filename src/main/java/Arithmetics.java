@@ -1,6 +1,6 @@
 public class Arithmetics {
 
-    public static Integer solve(int i) {
+    public Integer solve(int i) {
         return 1;
     }
 
