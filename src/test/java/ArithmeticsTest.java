@@ -15,4 +15,14 @@ class ArithmeticsTest {
         assertEquals(1, arithmetics.solve(1));
     }
 
+    @Test
+    void convertsTwo() {
+        assertEquals(2, arithmetics.solve(2));
+    }
+
+    @Test
+    void convertsThree() {
+        assertEquals(3, arithmetics.solve(3));
+    }
+
 }
